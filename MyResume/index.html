@@ -5,21 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;family=Sacramento&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <title>My Resume</title>
 </head>
 <body>
      <body>
-        <nav>
-            <a href="index.html">Home</a> | 
-            <a href="hobbies.html">Hobbies</a> | 
-            <a href="contact.html">Contact</a>
-        </nav>
         <header>
+            <div class="top-container">
             <h1>Alan Chavez</h1>
-            <img src="./assets-images/luffyProfilePic.png" alt="Profile Photo" /> <!-- Replace with your image URL -->
+            <img src="./assets-images/luffyProfilePic.png" alt="Profile Photo" />
+            <h2 class="black-color">a <span class="pro">pro</span>grammer.</h2>
+        </div>
         </header>
         
         <section>
+            <div class="middle-container">
             <h2>Summary:</h2>
             <p>
                 <!-- Add your summary or objective here -->
@@ -29,101 +33,60 @@
             
                 My immediate objective is to establish myself as a proficient programmer in the tech industry, applying my skills to impactful projects and fostering growth through collaboration and continuous learning. In the long run, I aim to start my own freelance company specializing in web and app development, providing creative and customized solutions to diverse clientele. 
                 </p> 
+            </div>
         </section>
 
-        <section>
-            <h2>Education</h2>
-            <ul>
-                <li>Los Angeles Mission College</li>
-                    <ul>
-                        <li>Associate degree in Computer Science (2020)</li>
-                    </ul>
-                    <br>
-                <li>California State University, Northridge</li>
-                <ul>
-                    <li>Bachelor of Science degree in Computer Science (2023)</li>
-                </ul>
-            </ul>
-        </section>
         
-        <section>
-            <h2>Work Experience</h2>
-            <ul>
-                <li>
-                    LAZ Parking (2020 - Present)
-                    <ul>
-                        <li>
-                            <!-- Responsibility -->
-                            Parking Lot Attendant
-                        </li>
-                        <!-- Add more list items as necessary -->
-                        <li>Customer Service</li>
-                        <li>Keep the area clean</li>
-                        <li>Direct traffic</li>
-                    </ul>
-                    <br>
-                </li>
-                <!-- Add more list items as necessary -->
-                <li>Los Angeles Conservation Corps (2019 - 2020)</li>
-                <ul>
-                    <li>Tree Planting</li>
-                    <li>Wild Fire Prevention</li>
-                    <li>Beautification of the city</li>
-                    <li>Matress Recycling</li>
-                    <li>MEND trasnport/delivery</li>
-                </ul>
-                <br>
-                <li>Portucal Peri Peri (2016 - 2019)</li>
-                    <ul>
-                        <li>Supervisor</li>
-                        <li>Cook</li>
-                        <li>Customer Service</li>
-                        <li>Food prepper</li>
-                    </ul>
-        
-            </ul>
-        </section>
 
         <section>
-            <h2>Skills</h2>
-            <h3>Technical Skills</h3>
-            <ul>
+                  <img src="./assets-images/dogCoding.jpg" alt="typing dog">
+            <h2>Technical Skills</h2>
                 <li>Java and Python Programming</li>
                 <li>Machine Learning and Data Mining</li>
-                <li>Web Development with HTML, CSS, and JavaScript</li>
+                <li>Full Stack Web Development</li>
                 <li>Proficiency in Visual Studio Code and Android Studio</li>
                 <li>Version Control using GitHub</li>
                 <li>Project Management with Jira</li>
-                <li>Video Game Development with Unreal Engine</li>
-            </ul>
-            
-            <h3>Other Skills</h3>
-            <ul>
-                <li>Excellent Customer Service</li>
-                <li>Experience in Supervisory Roles</li>
-                <li>Great in fast paced/high pressure environment</li>
-                <li>Coachable</li>
-            </ul>
+                <li>Video Game Development with Unreal Engine & Unity</li>
+                </div>
         </section>
 
         <section>
+
+            <div class="middle-container">
+                <img class="goog" src="./assets-images/googleCoursera.png" alt="google coursera" height="250px">
             <h2>Awards and Achievements</h2>
             <ul>
                 <li>
                     <!-- Award, Certification, Achievement -->
                     Google IT Support Certificate
-                    <ul>
-                        <li>Coursera</li>
-                    </ul>
+                    - Coursera (January 2022)
                 </li>
                 <!-- Add more list items as necessary -->
             </ul>
+            </div>
         </section>
-    </body>
 
-    
+        <div class="middle-container">
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>If you need a committed/passionate developer!</h3>
+            <p class="contact-message">Love hot wings as much as I do? Let's talk about how awesome they are! We can code
+              while we eat hot wings!</p>
+            <a class="btn" href="contact.html">CONTACT ME</a>
+          </div>
+          </div>
+
+    </body>
 </body>
-<footer>
-    <p>© 2023 Alan Chavez. All rights reserved.</p>
-</footer>
+<div class="bottom-container">
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="education.html" class="nav-link px-2 text-body-secondary">Education/Work Experiences</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-body-secondary">Contact me</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
+      </footer>
+</div>
 </html>
